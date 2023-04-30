@@ -1,0 +1,75 @@
+:root {
+  --btn-height: 50px;
+  --middle-btn-width: 75px;
+  --big-btn-width: 120px;
+  --space-btn-width: 350px;
+  --main-bg-color: #606160;
+  --main-text-color: #f3e9dd;
+  --functional-bg: #343534;
+}
+
+.kb-wrapper {
+  width: 800px;
+  height: 350px;
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.common-btn {
+  display: flex;
+  border-radius: 5px;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  justify-content: center;
+  align-items: center;
+}
+
+.small-btn {
+  width: var(--btn-height);
+  height: var(--btn-height);
+}
+
+.middle-btn {
+  width: var(--middle-btn-width);
+  height: var(--btn-height);
+}
+
+.big-btn {
+  width: var(--big-btn-width);
+  height: var(--btn-height);
+}
+
+.space-btn {
+  width: var(--space-btn-width);
+  height: var(--btn-height);
+}
+
+.double-btn {
+  position: relative;
+}
+
+.functional-btn {
+  background-color: var(--functional-bg);
+  text-transform: capitalize;
+}
+
+.sub-print {
+  position: relative;
+  left: -14px;
+  top: -14px;
+}
+
+.main-print {
+  position: relative;
+  left: -7px;
+}
+
+.caps {
+  text-transform: uppercase;
+}
